@@ -18,9 +18,9 @@ spec:
         - image: denitiawan/argocd-springboot3-service:latest
           name: main-service
           ports:
-            - containerPort: 80
+            - containerPort: 8001
           env:
             - name: APP_PORT
-              value: "80"
+              value: "8001"
             - name: APP_NAME
               value: "MAIN-SERVICE"
