@@ -7,9 +7,9 @@ metadata:
   namespace: my-application
 spec:
   ports:
-    - port: 8080
+    - port: 80
       protocol: TCP
-      targetPort: 8001
+      targetPort: 80
   selector:
     app: main-service
   type: ClusterIP
